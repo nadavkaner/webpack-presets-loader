@@ -4,7 +4,11 @@
   "description": "Lightweight webpack util for loading config presets",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest && codecov -t 7590fef3-3c5d-4534-92ec-84f8e68ee8ce"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   },
   "repository": {
     "type": "git",
@@ -20,6 +24,7 @@
     "webpack-merge": "^4.1.4"
   },
   "devDependencies": {
+    "codecov": "^3.0.4",
     "jest": "^23.5.0"
   }
 }
