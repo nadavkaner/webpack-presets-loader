@@ -1,0 +1,22 @@
+{
+  "name": "webpack-presets-loader",
+  "version": "1.0.0",
+  "description": "Lightweight webpack util for loading config presets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadavkaner/webpack-presets-loader.git"
+  },
+  "author": "Nadav Kaner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadavkaner/webpack-presets-loader/issues"
+  },
+  "homepage": "https://github.com/nadavkaner/webpack-presets-loader#readme",
+  "dependencies": {
+    "webpack-merge": "^4.1.4"
+  }
+}
