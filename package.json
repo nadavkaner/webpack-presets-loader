@@ -4,7 +4,8 @@
   "description": "Lightweight webpack util for loading config presets",
   "main": "index.js",
   "scripts": {
-    "test": "jest && codecov -t 7590fef3-3c5d-4534-92ec-84f8e68ee8ce"
+    "test": "jest",
+    "test:coverage": "npm run test && codecov"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/nadavkaner/webpack-presets-loader#readme",
   "dependencies": {
+    "dotenv": "^6.0.0",
     "webpack-merge": "^4.1.4"
   },
   "devDependencies": {
